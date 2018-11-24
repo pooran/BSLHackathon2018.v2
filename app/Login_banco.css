@@ -1,0 +1,64 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobileimage_8 */
+.Login_banco_mobileimage_8 {
+	margin: -40px 0px 0px 1px;
+	width: 317px; height: 100px;
+	display: block;
+}
+/* mobilecontainer */
+.ui-content.Login_banco_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_6 */
+.Login_banco_mobilelabel_6 {
+	text-decoration: none; font-weight: normal; color: #736565; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_2 */
+.Login_banco_mobiletextinput_2 {
+	margin: 30px 0px 4px 0px;
+}
+/* mobiletextinput_3 */
+.Login_banco_mobiletextinput_3 {
+	margin: 10px 0px 4px 0px;
+}
+/* mobilecheckboxgroup_10 */
+.Login_banco_mobilecheckboxgroup_10 {
+	margin: 15px 150px 4px 0px;
+}
+/* mobilecheckbox_11 */
+.Login_banco_mobilecheckbox_11 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobilebutton_4 */
+#Login_banco_mobilebutton_4 {
+
+}
+.ui-btn.Login_banco_mobilebutton_4 {
+	margin: 30px 5px 4px 5px;
+}
+/* mobilelink_12 */
+.Login_banco_mobilelink_12 {
+	margin: 10px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.Login_banco_mobilelink_12_link_wrapper > .Login_banco_mobilelink_12,
+.Login_banco_mobilelink_12_link_wrapper > .Login_banco_mobilelink_12:hover,
+.Login_banco_mobilelink_12_link_wrapper > .Login_banco_mobilelink_12:active,
+.Login_banco_mobilelink_12_link_wrapper > .Login_banco_mobilelink_12:visited {
+	text-decoration: underline; font-weight: normal; color: #32abab; text-align: center; font-family: Helvetica; font-size: 16px;
+}
+/* mobilefooter */
+.Login_banco_mobilefooter {
+	min-height:38px;
+}

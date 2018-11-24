@@ -1,0 +1,67 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Vendedor_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_10 */
+.Vendedor_mobilelabel_10 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelist_11 */
+.ui-page .Vendedor_mobilelist_11 {
+	margin: 15px 0px 0px 0px;
+}
+/* mobilelistitem_12 */
+/* mobilelistitembutton_13 */
+.Vendedor_mobilelistitembutton_13 {
+
+}
+/* mobilelistitem_14 */
+/* mobilelistitembutton_15 */
+.Vendedor_mobilelistitembutton_15 {
+
+}
+/* mobilelistitem_16 */
+/* mobilelistitembutton_17 */
+.Vendedor_mobilelistitembutton_17 {
+
+}
+/* mobilelistitem_109 */
+/* mobilelistitembutton_110 */
+.Vendedor_mobilelistitembutton_110 {
+
+}
+/* mobilebutton_111 */
+#Vendedor_mobilebutton_111 {
+
+}
+.ui-btn.Vendedor_mobilebutton_111 {
+	margin: 20px 1px 4px 1px;
+}
+/* mobilefooter */
+.Vendedor_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_6 */
+.Vendedor_mobilenavbar_6 {
+
+}
+.Vendedor_mobilenavbar_6 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .Vendedor_mobilenavbar_6 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .Vendedor_mobilenavbar_6 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.Vendedor_mobilenavbar_6 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

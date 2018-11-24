@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Vendedor_detalle_registro
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui-flat/flat-ui-flat.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Vendedor_detalle_registro"
+        id="Vendedor_detalle_registro" class="type-interior" data-theme="c">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="c" name="mobileheader" id="Vendedor_detalle_registro_mobileheader" class="Vendedor_detalle_registro_mobileheader">
+                <h1 dsid="mobileheader">
+                    Detalle Registro
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Vendedor_detalle_registro_mobilecontainer" name="mobilecontainer"
+            class="Vendedor_detalle_registro_mobilecontainer ui-content" dsid="mobilecontainer"
+            data-theme="c">
+                <link href="Vendedor_detalle_registro.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Vendedor_detalle_registro.js">
+                </script>
+                <!-- mobilelabel_10 -->
+                <div name="mobilelabel_10" id="Vendedor_detalle_registro_mobilelabel_10" dsid="mobilelabel_10"
+                data-role="appery_label" class="Vendedor_detalle_registro_mobilelabel_10">
+                    Ingresa la información:
+                </div>
+                <!-- mobilelabel_115 -->
+                <div name="mobilelabel_115" id="Vendedor_detalle_registro_mobilelabel_115" dsid="mobilelabel_115"
+                data-role="appery_label" class="Vendedor_detalle_registro_mobilelabel_115">
+                    Nombre del nuevo registro
+                </div>
+                <!-- mobiletextinput_114 -->
+                <div data-role="fieldcontain" class="Vendedor_detalle_registro_mobiletextinput_114 ">
+                    <input type="text" name="mobiletextinput_114" dsid="mobiletextinput_114" value=""
+                    placeholder="" id="Vendedor_detalle_registro_mobiletextinput_114" tabindex="5" multiple
+                    data-theme="c" class="Vendedor_detalle_registro_mobiletextinput_114" />
+                </div>
+                <!-- mobilelabel_116 -->
+                <div name="mobilelabel_116" id="Vendedor_detalle_registro_mobilelabel_116" dsid="mobilelabel_116"
+                data-role="appery_label" class="Vendedor_detalle_registro_mobilelabel_116">
+                    Cantidad de acciones
+                </div>
+                <!-- mobiletextinput_117 -->
+                <div data-role="fieldcontain" class="Vendedor_detalle_registro_mobiletextinput_117 ">
+                    <input type="number" name="mobiletextinput_117" dsid="mobiletextinput_117" value="Input"
+                    placeholder="" id="Vendedor_detalle_registro_mobiletextinput_117" tabindex="6" multiple
+                    data-theme="c" class="Vendedor_detalle_registro_mobiletextinput_117" />
+                </div>
+                <!-- mobilelabel_118 -->
+                <div name="mobilelabel_118" id="Vendedor_detalle_registro_mobilelabel_118" dsid="mobilelabel_118"
+                data-role="appery_label" class="Vendedor_detalle_registro_mobilelabel_118">
+                    Precio de venta de acciones (aprox).
+                </div>
+                <!-- mobiletextinput_119 -->
+                <div data-role="fieldcontain" class="Vendedor_detalle_registro_mobiletextinput_119 ">
+                    <input type="number" name="mobiletextinput_119" dsid="mobiletextinput_119" value="Input"
+                    placeholder="" id="Vendedor_detalle_registro_mobiletextinput_119" tabindex="7" multiple
+                    data-theme="c" class="Vendedor_detalle_registro_mobiletextinput_119" />
+                </div>
+                <!-- mobilelabel_120 -->
+                <div name="mobilelabel_120" id="Vendedor_detalle_registro_mobilelabel_120" dsid="mobilelabel_120"
+                data-role="appery_label" class="Vendedor_detalle_registro_mobilelabel_120">
+                    Ingresa tu Api Key
+                </div>
+                <!-- mobiletextinput_121 -->
+                <div data-role="fieldcontain" class="Vendedor_detalle_registro_mobiletextinput_121 ">
+                    <input type="number" name="mobiletextinput_121" dsid="mobiletextinput_121" value="Input"
+                    placeholder="" id="Vendedor_detalle_registro_mobiletextinput_121" tabindex="8" multiple
+                    data-theme="c" class="Vendedor_detalle_registro_mobiletextinput_121" />
+                </div>
+                <div data-role="fieldcontain" class="Vendedor_detalle_registro_mobilecheckboxgroup_133"
+                id="Vendedor_detalle_registro_mobilecheckboxgroup_133" dsid="mobilecheckboxgroup_133">
+                    <fieldset data-role="controlgroup" data-theme="c" class="">
+                        <span dsid="mobilecheckbox_135" class="Vendedor_detalle_registro_mobilecheckbox_135"
+                        name="mobilecheckbox_135">
+                            <input type="checkbox" name="mobilecheckboxgroup_133" id="Vendedor_detalle_registro_mobilecheckbox_135"
+                            tabindex="14" value="registro_venta" />
+                            <label id="Vendedor_detalle_registro_mobilecheckbox_135_label" for="Vendedor_detalle_registro_mobilecheckbox_135">
+                                Declaro que la Información es verdadera
+                            </label>
+                        </span>
+                    </fieldset>
+                </div>
+                <!-- mobilebutton_122 --><!--
+                --><a data-role="button" name="mobilebutton_122" dsid="mobilebutton_122" class="Vendedor_detalle_registro_mobilebutton_122"
+                id="Vendedor_detalle_registro_mobilebutton_122" data-corners="true" data-icon="none"
+                data-iconpos='nowhere' x-apple-data-detectors="false" data-mini="false" data-theme="e"
+                tabindex="9">
+                Registrar
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Vendedor_detalle_registro_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="Vendedor_detalle_registro_mobilefooter"
+            data-theme="a">
+            </div>
+        </div>
+    </body>
+
+</html>

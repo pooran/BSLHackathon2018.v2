@@ -1,0 +1,80 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Vendedor_detalle_registro_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_10 */
+.Vendedor_detalle_registro_mobilelabel_10 {
+	text-decoration: none; font-weight: normal; color: #8ba3a3; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 5px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_115 */
+.Vendedor_detalle_registro_mobilelabel_115 {
+	text-decoration: none; font-weight: normal; color: #32abab; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 15px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_114 */
+.Vendedor_detalle_registro_mobiletextinput_114 {
+	margin: 3px 0px 4px 0px;
+}
+/* mobilelabel_116 */
+.Vendedor_detalle_registro_mobilelabel_116 {
+	text-decoration: none; font-weight: normal; color: #32abab; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 10px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_117 */
+.Vendedor_detalle_registro_mobiletextinput_117 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_118 */
+.Vendedor_detalle_registro_mobilelabel_118 {
+	text-decoration: none; font-weight: normal; color: #32abab; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 10px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_119 */
+.Vendedor_detalle_registro_mobiletextinput_119 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_120 */
+.Vendedor_detalle_registro_mobilelabel_120 {
+	text-decoration: none; font-weight: normal; color: #32abab; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 10px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_121 */
+.Vendedor_detalle_registro_mobiletextinput_121 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilecheckboxgroup_133 */
+.Vendedor_detalle_registro_mobilecheckboxgroup_133 {
+	margin: 15px 0px 4px 0px;
+}
+/* mobilecheckbox_135 */
+.Vendedor_detalle_registro_mobilecheckbox_135 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobilebutton_122 */
+#Vendedor_detalle_registro_mobilebutton_122 {
+
+}
+.ui-btn.Vendedor_detalle_registro_mobilebutton_122 {
+	margin: 30px 5px 4px 5px;
+}
+/* mobilefooter */
+.Vendedor_detalle_registro_mobilefooter {
+	min-height:38px;
+}

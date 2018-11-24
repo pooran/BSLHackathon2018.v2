@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            VendedorAdjustes
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui-flat/flat-ui-flat.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="VendedorAdjustes" id="VendedorAdjustes"
+        class="type-interior" data-theme="c">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="VendedorAdjustes_mobileheader" class="VendedorAdjustes_mobileheader">
+                <h1 dsid="mobileheader">
+                    Vendedor
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="VendedorAdjustes_mobilecontainer" name="mobilecontainer"
+            class="VendedorAdjustes_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="c">
+                <link href="VendedorAdjustes.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="VendedorAdjustes.js">
+                </script>
+                <!-- mobilelabel_18 -->
+                <div name="mobilelabel_18" id="VendedorAdjustes_mobilelabel_18" dsid="mobilelabel_18"
+                data-role="appery_label" class="VendedorAdjustes_mobilelabel_18">
+                    Nombre
+                </div>
+                <!-- mobiletextinput_20 -->
+                <div data-role="fieldcontain" class="VendedorAdjustes_mobiletextinput_20 ">
+                    <input type="text" name="mobiletextinput_20" dsid="mobiletextinput_20" value=""
+                    placeholder="" id="VendedorAdjustes_mobiletextinput_20" tabindex="3" multiple data-theme="c"
+                    class="VendedorAdjustes_mobiletextinput_20" />
+                </div>
+                <!-- mobilelabel_19 -->
+                <div name="mobilelabel_19" id="VendedorAdjustes_mobilelabel_19" dsid="mobilelabel_19"
+                data-role="appery_label" class="VendedorAdjustes_mobilelabel_19">
+                    RUT
+                </div>
+                <!-- mobiletextinput_21 -->
+                <div data-role="fieldcontain" class="VendedorAdjustes_mobiletextinput_21 ">
+                    <input type="text" name="mobiletextinput_21" dsid="mobiletextinput_21" value=""
+                    placeholder="" id="VendedorAdjustes_mobiletextinput_21" tabindex="4" multiple data-theme="c"
+                    class="VendedorAdjustes_mobiletextinput_21" />
+                </div>
+                <!-- mobilelabel_22 -->
+                <div name="mobilelabel_22" id="VendedorAdjustes_mobilelabel_22" dsid="mobilelabel_22"
+                data-role="appery_label" class="VendedorAdjustes_mobilelabel_22">
+                    Empressa
+                </div>
+                <!-- mobiletextinput_24 -->
+                <div data-role="fieldcontain" class="VendedorAdjustes_mobiletextinput_24 ">
+                    <input type="text" name="mobiletextinput_24" dsid="mobiletextinput_24" value=""
+                    placeholder="" id="VendedorAdjustes_mobiletextinput_24" tabindex="5" multiple data-theme="c"
+                    class="VendedorAdjustes_mobiletextinput_24" />
+                </div>
+                <!-- mobilelabel_23 -->
+                <div name="mobilelabel_23" id="VendedorAdjustes_mobilelabel_23" dsid="mobilelabel_23"
+                data-role="appery_label" class="VendedorAdjustes_mobilelabel_23">
+                    Empressa RUT
+                </div>
+                <!-- mobiletextinput_25 -->
+                <div data-role="fieldcontain" class="VendedorAdjustes_mobiletextinput_25 ">
+                    <input type="text" name="mobiletextinput_25" dsid="mobiletextinput_25" value=""
+                    placeholder="" id="VendedorAdjustes_mobiletextinput_25" tabindex="6" multiple data-theme="c"
+                    class="VendedorAdjustes_mobiletextinput_25" />
+                </div>
+                <!-- mobilelink_26 -->
+                <div class="VendedorAdjustes_mobilelink_26_link_wrapper">
+                    <a id="VendedorAdjustes_mobilelink_26" href="http://appery.io" name="mobilelink_26"
+                    dsid="mobilelink_26" data-role="appery_link" class="VendedorAdjustes_mobilelink_26">
+                    +
+                    </a>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="VendedorAdjustes_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="VendedorAdjustes_mobilefooter" data-theme="c">
+                <!-- mobilenavbar_6 -->
+                <div data-role="navbar" id="VendedorAdjustes_mobilenavbar_6" name="mobilenavbar_6"
+                dsid="mobilenavbar_6" class="VendedorAdjustes_mobilenavbar_6" data-theme="c" style="position: relative;">
+                    <ul>
+                        <!-- v1 -->
+                        <li>
+                            <a data-theme="c" data-icon="star" id="VendedorAdjustes_v1" dsid="v1" name="v1">
+                            Vendiendo
+                            </a>
+                        </li>
+                        <!-- v2 -->
+                        <li>
+                            <a data-theme="c" data-icon="star" id="VendedorAdjustes_v2" dsid="v2" name="v2">
+                            Viejo
+                            </a>
+                        </li>
+                        <!-- v3 -->
+                        <li>
+                            <a data-theme="c" class="ui-btn-active ui-state-persist" data-icon="star" id="VendedorAdjustes_v3"
+                            dsid="v3" name="v3">
+                            Ajustes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

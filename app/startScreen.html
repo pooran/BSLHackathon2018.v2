@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui-flat/flat-ui-flat.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen" id="startScreen"
+        class="type-interior" data-theme="c">
+            <!-- LaBolzita -->
+            <div data-role="header" data-position="inline" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="c" name="LaBolzita" id="startScreen_LaBolzita" class="startScreen_LaBolzita">
+                <h1 dsid="LaBolzita">
+                    &nbsp;
+                </h1>
+                <!-- mobileimage_22 -->
+                <img class="startScreen_mobileimage_22" src="../img/Diapositiva1_1543064052.png"
+                id="startScreen_mobileimage_22" dsid="mobileimage_22" name="mobileimage_22" />
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="startScreen_mobilecontainer" name="mobilecontainer"
+            class="startScreen_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="startScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen.js">
+                </script>
+                <!-- mobilelabel_18 -->
+                <div name="mobilelabel_18" id="startScreen_mobilelabel_18" dsid="mobilelabel_18"
+                data-role="appery_label" class="startScreen_mobilelabel_18">
+                    El lugar de los activos abiertos
+                </div>
+                <!-- mobilelabel_107 -->
+                <div name="mobilelabel_107" id="startScreen_mobilelabel_107" dsid="mobilelabel_107"
+                data-role="appery_label" class="startScreen_mobilelabel_107">
+                    Mis Ventas de Acciones
+                </div>
+                <!-- mobilelist_93 -->
+                <ul data-role="listview" id="startScreen_mobilelist_93" class="startScreen_mobilelist_93"
+                name="mobilelist_93" dsid="mobilelist_93" data-inset="true" data-theme="c" data-divider-theme="e"
+                data-count-theme="d" style="" data-split-icon="carat-r">
+                    <!-- mobilelistitem_94 -->
+                    <li id="startScreen_mobilelistitem_94" name="mobilelistitem_94" dsid="mobilelistitem_94"
+                    tabindex="123" data-icon="carat-r" class="startScreen_mobilelistitem_94  ui-btn ui-btn-icon-right ui-icon-carat-r">
+                        <div class="ui-li-static-container ui-btn">
+                            <!-- mobilelabel_109 -->
+                            <div name="mobilelabel_109" id="startScreen_mobilelabel_109" dsid="mobilelabel_109"
+                            data-role="appery_label" class="startScreen_mobilelabel_109">
+                                Label
+                            </div>
+                            <!-- mobilelabel_110 -->
+                            <div name="mobilelabel_110" id="startScreen_mobilelabel_110" dsid="mobilelabel_110"
+                            data-role="appery_label" class="startScreen_mobilelabel_110">
+                                Label
+                            </div>
+                            <!-- mobilelabel_108 -->
+                            <div name="mobilelabel_108" id="startScreen_mobilelabel_108" dsid="mobilelabel_108"
+                            data-role="appery_label" class="startScreen_mobilelabel_108">
+                                Label
+                            </div>
+                        </div>
+                    </li>
+                    <!-- mobilelistitem_96 -->
+                    <li class="startScreen_mobilelistitem_96" data-icon="carat-r">
+                        <a id="startScreen_mobilelistitem_96" name="mobilelistitem_96" dsid="mobilelistitem_96"
+                        tabindex="123" class="startScreen_mobilelistitem_96">
+                        <h3>item 2</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_98 -->
+                    <li class="startScreen_mobilelistitem_98" data-icon="carat-r">
+                        <a id="startScreen_mobilelistitem_98" name="mobilelistitem_98" dsid="mobilelistitem_98"
+                        tabindex="123" class="startScreen_mobilelistitem_98">
+                        <h3>item 1</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_100 -->
+                    <li class="startScreen_mobilelistitem_100" data-icon="carat-r">
+                        <a id="startScreen_mobilelistitem_100" name="mobilelistitem_100" dsid="mobilelistitem_100"
+                        tabindex="123" class="startScreen_mobilelistitem_100">
+                        <h3>Item 4</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_102 -->
+                    <li class="startScreen_mobilelistitem_102" data-icon="carat-r">
+                        <a id="startScreen_mobilelistitem_102" name="mobilelistitem_102" dsid="mobilelistitem_102"
+                        tabindex="123" class="startScreen_mobilelistitem_102">
+                        <h3>Item 5</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_104 -->
+                    <li class="startScreen_mobilelistitem_104" data-icon="carat-r">
+                        <a id="startScreen_mobilelistitem_104" name="mobilelistitem_104" dsid="mobilelistitem_104"
+                        tabindex="123" class="startScreen_mobilelistitem_104">
+                        <h3>Item 6</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>

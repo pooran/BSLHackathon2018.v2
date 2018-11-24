@@ -1,0 +1,87 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.VendedorAdjustes_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_18 */
+.VendedorAdjustes_mobilelabel_18 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_20 */
+.VendedorAdjustes_mobiletextinput_20 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_19 */
+.VendedorAdjustes_mobilelabel_19 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_21 */
+.VendedorAdjustes_mobiletextinput_21 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_22 */
+.VendedorAdjustes_mobilelabel_22 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_24 */
+.VendedorAdjustes_mobiletextinput_24 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_23 */
+.VendedorAdjustes_mobilelabel_23 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobiletextinput_25 */
+.VendedorAdjustes_mobiletextinput_25 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelink_26 */
+.VendedorAdjustes_mobilelink_26 {
+	margin: 4px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.VendedorAdjustes_mobilelink_26_link_wrapper > .VendedorAdjustes_mobilelink_26,
+.VendedorAdjustes_mobilelink_26_link_wrapper > .VendedorAdjustes_mobilelink_26:hover,
+.VendedorAdjustes_mobilelink_26_link_wrapper > .VendedorAdjustes_mobilelink_26:active,
+.VendedorAdjustes_mobilelink_26_link_wrapper > .VendedorAdjustes_mobilelink_26:visited {
+	text-decoration: underline; font-weight: normal; font-style: italic; color: #cea924; text-align: right; font-family: Helvetica; font-size: 28px;
+}
+/* mobilefooter */
+.VendedorAdjustes_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_6 */
+.VendedorAdjustes_mobilenavbar_6 {
+
+}
+.VendedorAdjustes_mobilenavbar_6 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .VendedorAdjustes_mobilenavbar_6 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .VendedorAdjustes_mobilenavbar_6 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.VendedorAdjustes_mobilenavbar_6 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

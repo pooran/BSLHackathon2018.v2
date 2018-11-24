@@ -1,0 +1,59 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.details_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* list */
+.ui-page .details_list {
+	margin: 4px 0px 0px 0px;
+	display: none;
+}
+/* productName */
+/* mobilelistitembutton_4 */
+.details_mobilelistitembutton_4 {
+
+}
+/* productQuantity */
+.ui-mobile-viewport ul[data-role="listview"] li.details_productQuantity {
+	padding: 0;
+	margin: 0;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.details_productQuantity .ui-li-static-container {
+	padding: 0.7em 2.5em 0.7em 1em;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.details_productQuantity .ui-li-static-container h3 {
+	margin: 0;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.details_productQuantity.ui-icon-none .ui-li-static-container {
+	padding-right: 0px; /* consider nothing */
+}
+/* mobilelistitembutton_6 */
+.details_mobilelistitembutton_6 {
+
+}
+/* productDescription */
+.ui-mobile-viewport ul[data-role="listview"] li.details_productDescription {
+	padding: 0;
+	margin: 0;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.details_productDescription .ui-li-static-container {
+	padding: 0.7em 2.5em 0.7em 1em;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.details_productDescription .ui-li-static-container h3 {
+	margin: 0;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.details_productDescription.ui-icon-none .ui-li-static-container {
+	padding-right: 0px; /* consider nothing */
+}
+/* mobilelistitembutton_8 */
+.details_mobilelistitembutton_8 {
+
+}
+/* mobilefooter */
+.details_mobilefooter {
+	min-height:38px;
+}
